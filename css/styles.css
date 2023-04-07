@@ -1,0 +1,146 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+}
+body {
+  background-color: var(--white);
+  color: var(--slate);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.logo .logo-web {
+  color: var(--iris);
+}
+.logo .logo-studio {
+  color: var(--navy-blue);
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-nav .link {
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--ocean);
+}
+.site-nav .link.current {
+  color: var(--ocean);
+}
+.address {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.addr-link {
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+.addr-link:hover,
+.addr-link:focus {
+  color: var(--ocean);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+/* Buttons */
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button.btn-primary {
+  color: var(--white);
+  background-color: var(--iris);
+}
+.button.btn-secondary {
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/* Section*/
+.section-title {
+  color: var(--navy-blue);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.features-list .title,
+.team-list .title,
+.projects-list .title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-list .name {
+  text-align: center;
+}
+.team-list .position {
+  text-align: center;
+}
+
+.projects-list a {
+  text-decoration: none;
+}
+.projects-list .type {
+  color: var(--slate);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer .logo-studio {
+  color: var(--cloud);
+}
+.footer .slogan {
+  color: var(--cloud);
+}
