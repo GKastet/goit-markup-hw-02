@@ -158,14 +158,19 @@ body {
   color: var(--cloud);
 }
 
-.nav-menu-portfolio {
+.navmenu-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate)
 }
-.nav-menu-portfolio:hover,
-.nav-menu-portfolio:focus {
+.navmenu-portfolio:hover,
+.navmenu-portfolio:focus {
   color: var(--ocean);
+}
+.addr-link-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
