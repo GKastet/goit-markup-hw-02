@@ -39,6 +39,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-menu {
   color: #2e2f42;
@@ -155,4 +156,16 @@ body {
 }
 .footer .slogan {
   color: var(--cloud);
+}
+
+.nav-menu-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate)
+}
+.nav-menu-portfolio:hover,
+.nav-menu-portfolio:focus {
+  color: var(--ocean);
 }
