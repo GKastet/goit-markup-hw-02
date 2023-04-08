@@ -126,7 +126,7 @@ body {
 
 .features-list .title,
 .team-list .title,
-.projects-list .title {
+.filter-list .title {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
@@ -141,11 +141,17 @@ body {
   text-align: center;
 }
 
-.projects-list a {
+.filter-list a {
   text-decoration: none;
 }
-.projects-list .type {
+.filter-list .type {
   color: var(--slate);
+}
+.type {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer {
