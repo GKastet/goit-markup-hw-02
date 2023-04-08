@@ -10,7 +10,6 @@ body {
   background-color: var(--white);
   color: var(--slate);
   font-family: Roboto, sans-serif;
-  
 }
 .list {
   list-style: none;
@@ -56,6 +55,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .addr-link {
@@ -157,22 +157,25 @@ body {
 .footer .slogan {
   color: var(--cloud);
 }
-
-.navmenu-portfolio {
+.nav-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate)
+}
+.navmenu-portfolio {
+  color: var(--slate);
 }
 .navmenu-portfolio:hover,
 .navmenu-portfolio:focus {
   color: var(--ocean);
 }
-.addr-link-portfolio {
+.address-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.addr-link-portfolio {
   color: var(--slate);
 }
 .addr-link-portfolio:hover,
