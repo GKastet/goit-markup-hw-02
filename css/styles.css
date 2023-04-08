@@ -157,13 +157,12 @@ body {
 .footer .slogan {
   color: var(--cloud);
 }
-.nav-portfolio {
+
+.navmenu-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.navmenu-portfolio {
   color: var(--navy-blue);
 }
 .navmenu-portfolio:hover,
@@ -171,6 +170,7 @@ body {
   color: var(--ocean);
 }
 .address-portfolio {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
