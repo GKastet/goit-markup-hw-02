@@ -21,17 +21,19 @@ body {
 /* Header */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 18px;
   line-height: 1.17;
-}
-.logo .logo-web {
   color: var(--iris);
 }
+.link {
+  text-decoration: none;
+}
+
 .logo .logo-studio {
   color: var(--navy-blue);
 }
@@ -54,13 +56,14 @@ body {
   color: var(--ocean);
 }
 .address {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .addr-link {
   color: var(--navy-blue);
-  text-decoration: none;
+  
 }
 .addr-link:hover,
 .addr-link:focus {
@@ -95,6 +98,11 @@ body {
 .button.btn-secondary {
   color: var(--iris);
   background-color: var(--cloud);
+}
+
+.button.btn-primary:hover,
+.button.btn-primary:focus {
+  background-color: var(--ocean);
 }
 
 .btn-secondary:hover,
