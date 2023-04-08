@@ -171,11 +171,11 @@ body {
 }
 .address-portfolio {
   font-style: normal;
+}
+.addr-link-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.addr-link-portfolio {
   color: var(--slate);
 }
 .addr-link-portfolio:hover,
