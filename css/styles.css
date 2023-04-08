@@ -53,12 +53,12 @@ body {
 }
 .address {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .addr-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .addr-link:hover,
@@ -164,7 +164,7 @@ body {
   letter-spacing: 0.02em;
 }
 .navmenu-portfolio {
-  color: var(--slate);
+  color: var(--navy-blue);
 }
 .navmenu-portfolio:hover,
 .navmenu-portfolio:focus {
