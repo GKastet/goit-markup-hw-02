@@ -38,14 +38,10 @@ body {
   color: var(--navy-blue);
 }
 .site-nav {
+  color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-}
-
-.site-nav .link {
-  color: var(--navy-blue);
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -62,7 +58,8 @@ body {
 }
 
 .addr-link {
-  color: var(--navy-blue);
+  color: var(--slate);
+
   
 }
 .addr-link:hover,
@@ -85,6 +82,7 @@ body {
 }
 /* Buttons */
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,6 +114,7 @@ body {
   color: var(--navy-blue);
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -126,6 +125,7 @@ body {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 
