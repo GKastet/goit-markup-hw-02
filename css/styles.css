@@ -8,7 +8,6 @@
 }
 body {
   background-color: var(--white);
-  color: var(--slate);
   font-family: Roboto, sans-serif;
 }
 .list {
@@ -109,7 +108,7 @@ body {
 }
 
 /* Section*/
-.our-team {
+.section.our-team {
   background-color: var(--cloud);
 }
 .section-title {
@@ -120,7 +119,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.team-foto {
+.our-team .team-foto {
   background-color: (var(--white));
 }
 .text {
