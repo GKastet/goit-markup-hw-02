@@ -9,6 +9,7 @@
 body {
   background-color: var(--white);
   font-family: Roboto, sans-serif;
+  color: var(--slate);
 }
 .list {
   list-style: none;
@@ -129,16 +130,28 @@ body {
   letter-spacing: 0.02em;
 }
 
-.features-list .title,
-.team-list .title,
+.features-list .title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-list .title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .filter-list .title {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
-  }
+}
 
 .team-list .name {
   text-align: center;
@@ -148,12 +161,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
-
-/* .filter-list a {
-  text-decoration: none;
-} */
 .filter-list .type {
   color: var(--slate);
 }
