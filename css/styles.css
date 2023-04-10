@@ -130,22 +130,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.features-list .title {
-  color: var(--navy-blue);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-list .title {
-  color: var(--navy-blue);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.filter-list .title {
+.features-list .title,
+.team-list .title,
+.filter-list .title
+ {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
