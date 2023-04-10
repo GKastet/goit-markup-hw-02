@@ -119,7 +119,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.our-team .team-foto {
+.team-list .team-foto {
   background-color: (var(--white));
 }
 .text {
@@ -135,8 +135,9 @@ body {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  letter-spacing: 0.02em;
+  
   }
 
 .team-list .name {
@@ -149,9 +150,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.filter-list a {
+
+/* .filter-list a {
   text-decoration: none;
-}
+} */
 .filter-list .type {
   color: var(--slate);
 }
