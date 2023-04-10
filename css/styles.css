@@ -120,7 +120,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.team-list .team-foto {
+.team-foto {
   background-color: (var(--white));
 }
 .text {
