@@ -121,7 +121,7 @@ body {
   text-transform: capitalize;
 }
 .team-foto {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .text {
