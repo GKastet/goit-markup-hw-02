@@ -109,6 +109,9 @@ body {
 }
 
 /* Section*/
+.our-team {
+  background-color: var(--cloud);
+}
 .section-title {
   color: var(--navy-blue);
   font-size: 36px;
@@ -116,6 +119,9 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+.team-foto {
+  background-color: (var(--white));
 }
 .text {
   color: var(--slate);
@@ -131,14 +137,17 @@ body {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
-  line-height: 1.2;
-}
+  letter-spacing: 0.02em;
+  }
 
 .team-list .name {
   text-align: center;
 }
 .team-list .position {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .filter-list a {
